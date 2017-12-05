@@ -1,0 +1,191 @@
+html, body {
+	font-family: "Microsoft JhengHei", sans-serif, Arial;
+/*	background: #eee url(../images/index.jpg) no-repeat center top;
+	height: 3860px;*/
+	font-size: 14px;
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+.menu_wap {
+	color: #333;
+	background-color: #fff;
+	display: table;
+	text-align: center;
+	width: 100%;
+	height: 66px;
+	position: fixed;
+	z-index: 999;
+	-moz-box-shadow:4px 4px 12px 4px rgba(20%,20%,20%,0.2);
+	-webkit-box-shadow:4px 4px 12px 4px rgba(20%,20%,20%,0.2);
+	box-shadow:4px 4px 12px 4px rgba(20%,20%,20%,0.2);
+}
+
+.container {
+	display: table-cell;
+	vertical-align: bottom;
+}
+.menu_wap ul {	
+
+}
+.menu_wap li {
+	padding: 32px 0 32px 0;
+}
+.menu_wap li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 1.2em;
+	opacity: 1;
+
+}
+.menu_wap li a:hover {
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	opacity: 0.8;
+	color: rgba(230, 0, 18, 1)!important;
+}
+#menu_div {
+	display: none;
+}
+
+#top,#about,#product ,#equipment ,#inspection ,#contact {     padding-top: 50px; margin-top: -50px;}
+
+/*banner CSS*/
+.banner { position:relative; z-index: 1!important; padding-top: 120px;}
+.slider {
+	width:100%;
+	margin: 0 auto;
+    display: none;
+}
+.slick-slide { }
+.slick-slide img { }
+.slick-slide {/*      transition: all ease-in-out .3s;      opacity: .2;*/}
+.slick-active {	opacity: .5;}
+.slick-current {	opacity: 1;}
+.variable {	visibility: hidden;}
+.slick-initialized {	visibility: visible;}
+.slick-dots {
+    bottom: 40px!important;
+/*    bottom: 8px!important*/;
+}
+.slick-dotted.slick-slider {  margin-bottom: 3%!important;}
+.slick-dots li button:before {
+	font-family: 'slick';
+	font-size: 16px!important;
+	line-height: 20px;
+}
+.slick-prev {
+    left: 10px !important;
+	z-index: 1;
+}
+.slick-next {
+    right: 10px !important;
+	z-index: 1;
+}
+
+
+.wap { width: 100%; text-align: center; background-color: #f1f1f1;}
+
+/*關於*/
+.about_wap { max-width: 900px; margin: -5% auto 5% auto; display: block; text-align: center; padding: 0; position:relative; z-index: 99;}
+.about_wap div { }
+.about_idea_01, .about_idea_02, .about_idea_03 { display: table-cell; max-width: 320px;}
+.about_idea_01 img, .about_idea_02 img, .about_idea_03 img {
+	-webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.4);
+	-moz-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.4);
+	margin-right: -4px;
+	width: 100%;
+}
+.about_info { font-size: 18px; color: #555555; line-height: 40px; text-align: left; width: 97%; margin: 2% auto;}
+
+/*產品*/
+.product_wap_bg { width: 100%; } 
+.product_wap { width: 1000px; margin: 0 auto 6% auto; display: block; text-align: center; padding: 0; position:relative; z-index: 99;}
+.product_topic { font-size: 40px; font-weight: bold; color: #e40000; margin: 10% auto 2% auto;}
+.product_bg { 
+	background: url(../images/product_bg.png) no-repeat center top;
+	position: relative;
+    width: 100%;
+    height: 730px;
+}
+.product_01 { position: absolute; top:25px; left: 513px;}
+.product_02 { position: absolute; top:274px; left: 612px;}
+.product_03 { position: absolute; top:520px; left: 319px;}
+.product_04 { position: absolute; top:274px; left: 158px;}
+.product_05 { position: absolute; top:25px; left: 187px;} 
+
+
+/*精密設備*/
+.equipment_wap_bg { width: 100%; height: 760px; background-color: #f0f0f0; display: table;}
+.equipment_wap { max-width: 1000px; margin: 0 auto 0 auto; display: block; text-align: center; padding: 0; position:relative; z-index: 99; vertical-align: middle; padding: 6% 0 0 0; }
+.equipment_wap img { max-width: 1000px; padding: 4% 0 4% 0;}
+.equipment_topic {font-size: 40px;font-weight: bold;color: #e40000;margin: 0% auto 3% auto;text-align: left;}
+.equipment_wap ul {width: 200px;display: block;float: left;margin: 0 auto 0 8%;}
+.equipment_wap li {width: 100%;display: block;font-size: 18px;color: #555555;line-height: 40px;text-align: left;}
+.equipment_01 { position: absolute; top:40px; left: 316px;}
+.equipment_02 { position: absolute; top:156px; left: 606px;}
+.equipment_03 { position: absolute; top:424px; left: 152px;}
+
+
+/*精密檢測*/
+.inspection_wap_bg { width: 100%; height: 940px; /*background-color: #f0f0f0;*/ display: table;}
+.inspection_wap { max-width: 1000px; margin: 0 auto 0 auto; display: block; text-align: center; padding: 0; position:relative; z-index: 99; vertical-align: middle;
+padding: 6% 0 0 0; }
+.inspection_wap img { max-width: 1000px; padding: 4% 0 4% 0;}
+.inspection_topic {font-size: 40px;font-weight: bold;color: #e40000;margin: 0% auto 3% auto;text-align: left;}
+.inspection_wap ul {width: 400px;display: block;float: left;margin: 0 auto 0 8%;}
+.inspection_wap li {width: 50%;display: block;font-size: 18px;color: #555555;line-height: 40px;text-align: left; float: left;}
+.inspection_01 { position: absolute; top:80px; left: 516px;}
+.inspection_02 { position: absolute; top:380px; left: 88px;}
+.inspection_03 { position: absolute; top:504px; left: 544px;}
+
+
+/*聯絡我們*/
+.contact_wap_bg {width: 100%;height: 320px;background-color: #f0f0f0;}
+.contact_wap { max-width: 1000px; margin: 0 auto 0 auto; display: block; text-align: center; padding: 0; position:relative; z-index: 99; }
+.contact_wap img { width: 100%; margin-top: -4%;}
+.contact_topic { font-size: 34px; font-weight: bold; color: #333; margin: 0% auto 20px auto;}
+.contact_01 { position: relative; float: left;}
+.contact_wap table {
+	font-weight: normal;
+	width: 320px;
+	text-align: left;
+	font-size: 18px;
+	line-height:30px;
+	border: 0;
+	margin: 60px 0 0 60px;
+	display: block;
+	float: left;
+}
+.contact_wap th { 
+	width: 120px;
+	font-weight: normal;
+} 
+.contact_wap td { 
+	width: 220px;
+	font-weight: normal;
+}
+.contact_wap a { 
+	text-decoration:none;
+} 
+.cr { width: 100%; font-size:1.2em; color:#848484;  text-align: center; padding:4% 0 4% 0; clear:both; }
+
+
+/*大於1060*/
+@media screen and (min-width: 1061px) {
+.menu_wap li:first-child {}
+}
+
+@media screen and (max-width: 1200px) {
+.banner { position:relative; z-index: 1!important; padding-top: 66px;}
+}
+
+@media screen and (max-width: 1060px) {
+
+
+
+}

@@ -132,7 +132,7 @@ html, body {
 
 
 /*精密檢測*/
-.inspection_wap_bg { width: 100%; height: 940px; /*background-color: #f0f0f0;*/ display: table;}
+.inspection_wap_bg { width: 100%; height: 1180px; /*background-color: #f0f0f0;*/ display: table;}
 .inspection_wap { max-width: 1000px; margin: 0 auto 0 auto; display: block; text-align: center; padding: 0; position:relative; z-index: 99; vertical-align: middle;
 padding: 6% 0 0 0; }
 .inspection_wap img { max-width: 1000px; padding: 4% 0 4% 0;}
@@ -142,7 +142,7 @@ padding: 6% 0 0 0; }
 .inspection_01 { position: absolute; top:80px; left: 516px;}
 .inspection_02 { position: absolute; top:380px; left: 88px;}
 .inspection_03 { position: absolute; top:504px; left: 544px;}
-
+.inspection_04 { position: absolute; top:690px; left: 230px;}
 
 /*聯絡我們*/
 .contact_wap_bg {width: 100%;height: 320px;background-color: #f0f0f0;}

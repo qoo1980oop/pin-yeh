@@ -50,7 +50,7 @@ width: device-width;
 	width: 100%;
 	display: block;
 	/* background-color:#5f1311; */
-	padding:18px 0 18px 0;
+	padding:1em 0 1em 0;
 }
 .nav-collapse li a {
 	color:#f9e8cf;
@@ -63,7 +63,7 @@ width: device-width;
 	position: absolute;
 	display: block;
 	overflow: hidden;
-	zoom: 1;
+	zoom: 1.6;
 }
 .nav-collapse.opened {
 	max-height: 9999px;
@@ -85,6 +85,7 @@ width: device-width;
  @media screen and (min-width: 1200px) {
 .js .nav-collapse {
 	position: relative;
+	zoom: 1.0;
 }
 .js .nav-collapse.closed {
 	max-height: none;
@@ -158,7 +159,7 @@ header {
 	right: 0;
 	left: 0;
 	top: 0;
-	z-index:999;
+	z-index:900;
 }
 .android .mask {
 	-webkit-transition: none;
